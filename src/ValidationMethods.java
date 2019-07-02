@@ -11,7 +11,7 @@ public class ValidationMethods {
 		String input;
 		
 		do {
-			System.out.println("Please enter a valid Name: ");
+			System.out.println("Please enter a valid Name): ");
 			input = scnr.nextLine();
 			
 			if (input.matches(("[A-Z][a-zA-Z]{1,29}"))){
@@ -36,7 +36,7 @@ public class ValidationMethods {
 		email = scnr.nextLine();
 		
 		do {
-			System.out.println("Please enter a valid email(ex.james@james.com : ");
+			System.out.println("Please enter a valid email(ex.james@james.com) : ");
 			email = scnr.nextLine();
 			
 			if (email.matches(("[a-zA-Z0-9]{5,30}[@][a-zA-z]{5,10}[.][a-zA-Z]{2,3}"))){
@@ -61,7 +61,7 @@ public class ValidationMethods {
 		phone = scnr.nextLine();
 		
 		do {
-			System.out.println("Please enter a valid phone number (ex. xxx-xxx-xxxx: ");
+			System.out.println("Please enter a valid phone number (ex. xxx-xxx-xxxx): ");
 			phone = scnr.nextLine();
 			
 			if (phone.matches(("\\d{3}-\\d{3}-\\d{4}"))){
@@ -84,7 +84,7 @@ public class ValidationMethods {
 		date = scnr.nextLine();
 		
 		do {
-			System.out.println("Please enter a valid date (ex. mm/dd/yyy: ");
+			System.out.println("Please enter a valid date (ex. mm/dd/yyy): ");
 			date = scnr.nextLine();
 			
 			if (date.matches(("\\d{2}[/]\\d{2}[/]\\d{4}"))){
@@ -107,7 +107,7 @@ public class ValidationMethods {
 		html = scnr.nextLine();
 		
 		do {
-			System.out.println("Please enter a valid html: ");
+			System.out.println("Please enter a valid html): ");
 			html = scnr.nextLine();
 			
 			if (html.matches(("[<][a-zA-Z0-9]+[>] [<][/][a-zA-Z0-9]+[>]"))){
